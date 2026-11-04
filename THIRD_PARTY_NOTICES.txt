@@ -515,3 +515,5 @@ APPENDIX: How to apply the Apache License to your work
         or implied. See the License for the specific language governing
         permissions and limitations under the License.
 
+
+Birthplace geographic dataset: dr5hn/countries-states-cities-database, ODbL 1.0. See PLACES-SOURCES.txt, PLACES-LICENSE.txt and places-data.json for attribution and the derived database.

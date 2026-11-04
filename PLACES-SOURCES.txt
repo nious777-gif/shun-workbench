@@ -1,0 +1,11 @@
+Birthplace dataset attribution
+Source: Countries States Cities Database by dr5hn and contributors
+https://github.com/dr5hn/countries-states-cities-database
+Retrieved: 2026-11-04
+License: Open Database License (ODbL) 1.0. See PLACES-LICENSE.txt.
+Derived machine-readable database: places-data.json (same ODbL 1.0).
+Changes: selected Chinese-named city/prefecture/adm2 entries for 31 mainland regions; deduplicated names; added Taiwan county/city reference coordinates, Hong Kong district references, and Macau reference point from source administrative data. Mainland zones normalized to Asia/Shanghai (Beijing civil time); HK/MO/TW preserve respective IANA zones. Hong Kong district labels translated to Chinese.
+Coverage: 34 region groups; partial city/administrative-place coverage, not a complete county directory. Coordinates may be administrative centroids, not exact city centers. Verify the actual birthplace before precise calculations. This is public geographic data, never private birth records.
+
+Four mainland municipalities use a single municipal reference coordinate, not obsolete district entries.
+Chongqing reference uses source city id 164574 (29.56026, 106.55771), not the larger municipality centroid.
