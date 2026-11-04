@@ -1,4 +1,4 @@
-const BASE=new URL('./',self.location.href),PREFIX='shun:'+BASE.pathname+':',CACHE=PREFIX+"shun-index-BRQm_9I5.css|index-DZdPVbqv.js|chart.worker-DDy-DnU1.js", ASSETS=["","index.html","manifest.webmanifest","icon.svg","index-BRQm_9I5.css","index-DZdPVbqv.js","chart.worker-DDy-DnU1.js"].map(x=>new URL(x,BASE).href);
+const BASE=new URL('./',self.location.href),PREFIX='shun:'+BASE.pathname+':',CACHE=PREFIX+"shun-index-BRQm_9I5.css|index-6vkDIPyY.js|chart.worker-DDy-DnU1.js", ASSETS=["","index.html","manifest.webmanifest","icon.svg","index-BRQm_9I5.css","index-6vkDIPyY.js","chart.worker-DDy-DnU1.js"].map(x=>new URL(x,BASE).href);
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith(PREFIX)&&k!==CACHE).map(k=>caches.delete(k))))));
 self.addEventListener('fetch',e=>{
